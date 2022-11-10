@@ -1,0 +1,158 @@
+body{
+   background-color: #EEEEF8 !important;
+}
+
+.button-form{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.text-title-form{
+    color: #020202;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.img-size{
+   padding: 30px;
+}
+
+
+
+.video-delete-icon{
+    
+    position: absolute;
+    top:20%;
+    left: 75%;
+    
+    background: #000;
+    width: 15px;
+    height: 15px;
+    color: #FFF;
+    z-index: 999;
+}
+.video-delete-icon:hover{
+    cursor: pointer;
+}
+
+.video-delete-icon-text{
+    position: relative;
+    top: -6px;
+}
+
+
+
+#modal {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    display: none;
+}
+
+
+#modal-video {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    /*transition: all .5s;*/
+    z-index: 999;
+    display: none;
+}
+
+.modal-container{
+    background: #fff;
+    margin-top: 30%;
+    border-radius: 15px;
+    padding: 10%;
+}
+
+.modal-video-container{
+    background: #fff;
+    margin-top: 10%;
+    border-radius: 15px;
+    padding: 10%;
+}
+.modal-text{
+    color: #3C3E41;
+    font-weight: bold;
+}
+
+.modal-close-icon:hover{
+    cursor: pointer;
+}
+.modal-confirm-button{
+    background: #136AE4;
+    color: #FFF;
+    border-radius: 10px;
+    
+}
+.modal-confirm-button:hover{
+    background: #0c52b4;
+}
+.modal-cancel-button{
+    border: solid 1px #136AE4;
+    color: #136AE4;
+    border-radius: 10px;
+   
+}
+.modal-cancel-button:hover{
+    background: rgb(202, 199, 199)
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+.loader {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+}
+
+.loader:after {
+    content: "";
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin-left: 7px;
+    border-radius: 50%;
+    border: 6px solid #FFF;
+    border-color: #FFF transparent #FFF transparent;
+    -webkit-animation: loader 1.2s linear infinite;
+    animation: loader 1.2s linear infinite;
+}
+
+@-webkit-keyframes loader {
+    0%{
+    transform: rotate(0deg);
+    }
+100% {
+    transform: rotate(360deg); }
+}
+
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    } 
+}
+
